@@ -18,6 +18,7 @@ En MundoChayanne, podrás encontrar los siguientes tipos de contenido:
 
 - **Discografía completa:** Una lista completa de los álbumes de estudio y recopilatorios de Chayanne.
 - **Hola**asdasdasda
+- **Hola**asdasdasda
 
 ## ¿Cómo unirse a MundoChayanne?
 
