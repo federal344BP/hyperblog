@@ -17,6 +17,7 @@ En MundoChayanne, podrás encontrar los siguientes tipos de contenido:
 - **Información de conciertos y giras:** Aquí encontrarás toda la información sobre sus próximos conciertos y giras, así como detalles sobre cómo comprar entradas.
 
 - **Discografía completa:** Una lista completa de los álbumes de estudio y recopilatorios de Chayanne.
+- **Hola**asdasdasda
 
 ## ¿Cómo unirse a MundoChayanne?
 
