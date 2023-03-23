@@ -1,48 +1,72 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
+    <title>Mundo Chayanne - Fanpage</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <title>Titlo para el post 2.0</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      .container {
+        padding-top: 50px;
+      }
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+      }
+      p {
+        font-size: 20px;
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .button {
+        background-color: #f44336;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 20px;
+        display: block;
+        margin: 20px auto;
+        width: 50%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div id="container">
-      <div id="cabecera">
-        <img src="imagenes/como.PNG" width="50px" height="50px" />
-        <p>Mundo chayanne</p>
-      </div>
-      <div id="main">
-        <h1>Chayanne</h1>
-        <p>
-          Aquí te dejamos algunas de las razones por las que sigue siendo muy
-          querido. ¡Su carisma! Definitivamente es uno de los artistas más
-          simpáticos que irradia buena energía. Su música ha trascendido en el
-          tiempo, siempre suena bien en cualquier día, en especial para celebrar
-          fiestas y karaokes.
-        </p>
-        <p>
-          Los padres de Elmer Figueroa Arce fueron Quevedo con el Linton y
-          Klaudia Karin Hoghemann. Su nombre artístico "Chayanne" se lo dio su
-          madre, en honor a su aprecio por la serie de televisión estadounidense
-          de la década de 1950, Cheyenne.
-        </p>
-        <p>
-          En 1988 sacó al mercado un segundo álbum, también llamado Chayanne,
-          uno de cuyos temas, Este ritmo se baila así, se convirtió en el mejor
-          vídeo latino del año según la MTV; ese mismo año firmó un contrato
-          publicitario con la multinacional Pepsi-Cola que contribuyó a
-          acrecentar de forma notable su popularidad.
-        </p>
-        <p>
-          Chayanne ha recibido, hasta el momento, más de 70 discos de oro y
-          platino, sus álbumes y sencillos promocionales han repuntado en los
-          listados de popularidad y ha sido nominado y galardonado en premios
-          como los Billboard y los Grammy Latinos
-        </p>
-        <footer>Mundo chayanne @</footer>
-      </div>
+    <div class="container">
+      <h1>Mundo Chayanne</h1>
+      <img
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJAAygMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQQFBgIDBwj/xAA4EAACAQMCBAQEBAQGAwAAAAABAgMABBEFIRITMVEGIkFhB3GBkRQyQqGxwdHwFRYjUmKCJKLh/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAECAwQFBv/EACQRAAICAgICAgIDAAAAAAAAAAABAhEDIRIxBBMyQVFhBSJC/9oADAMBAAIRAxEAPwDq1FFFWHQCiiigAoopaACiioPxvfS6b4U1S5gPBMts4jcdVJGMj70CK548+IUOkxy6fosqTahko8vVIO/zb29K4vqN7PdzPcXc7zTSEMzyNkmtQPNmC8eCSeInuaaLxFxxcRXO+BuKjJlMpGTNKIw2MoTj604QGQMSPIgzkCt5sm5HFIwCZyuTjiGwP1rddvZKyC3LEnqWPv2+XpSK7GjctQE4QTt5j/frWM8LDDY69B7VnPch34ZEVRxlmVBjO3p7U5W6FxhjEgG2eM53AxnH94pBsjlZg/Cg37VthkHGTJhiDnrTv8KgLSF2YgZOO9NxHHG4dmWTIyFUfl7Ux20T/g7VxpviC2uYZOWOcFkHoyscEEetejMYryezsHEm3GDkgbfI16Z8KazBr2iW17bvxEoBL/xcDcfepF0XZL0lLRQTEooopjEooooAKKKKYBRRRSAKWkpaAEpaKKQBUfr2mR6vpVxYy7JMjIT2yOtSFL7UxHl7WdGuNJ1GWzuPzxPhsf3vTfhjhdJVjWTB8ysf2NXj4w2klv4hWVMtz0DlsYwOgUfLhJ+tYeF/DtlPp9vcXic3mLkhun1qrJLhsisfOVFGv7h7qccByg2UBOEL7U+t/DetXbKsGnTGRhgHAx2rsGm6FpkRVhZQgj8vl2U1aLSONdwAPkKz+9sn6FE5TpPwruxAsmoEFifNGjfl+Rqdsfh/HZtlnVlzsrKCcfOujhlUbdaaygMe1KUnQ4pdFcl0C0gtiIbeNXIwds1yPVbIW+pTsBHGsbOhxttiu43TeVx7Vx7x15L0yMgUts57n0NPDLeyOaOioSr/AKeVYNg4wRXUfgnrfBNPovK2kJmEmehAAxiuUMOHIVj7ipTwzqF5Y6zaS6eSLjmqqY3znbGPXrWpMqgepKShchQDknHrS1MtMTRSmkpAFJS0lMYUUUUAFFFFABRRS0AFFFFIBaKKUUCOd/GTS5bnRre/hAK2kh5oA34W2z9DUD4Rl49Jg/45BHbeut31nDf2k1pdIHgmQo6n1Brkuh2UmjyX2m3mY2tbllUt+pDupHfIqrPG0TxfIuNkcooFS8D4G9QOn3cAABkTi6YLVMxuOXkHG+QawpUXSHy+asXUn02qJ1HXodJjZ51Z+EdAKqk/jy9vHPKt1srbiCNLMD1PQbDrVqjZVtFzukC5zjfaqn4i0Cyv0Y3CtnrkGls778ey/h9TWVjuAFIzv6Z+RqWvVYRqJCGPcVXLXRakmjhusaa1heSQk8Sqdj7e9Wr4aaAZr+PWLlcW9rIGXfcsMb/IU98X6IlzPayqeDmSiNjjv6/xq8x6dHo9nyLReCOCNkBH6yN8/OtCyf1VFMcSUnZdYnWSNXU5VhkVlWMRzEjD1UH71ka1lYHpWNZUmKBiUUUUhiUUtFMBKKKKAFooooAKUUlKKQhaKWimAVRviXpMN1FaXUjvEAxR2Tq22R/A1dy4HWobxRy59KZWwQHU/vUZ/FkodnH7nQ72CytdT0xLho5nZT5jI646EgDbParno0+p6ddQ6dqwjmWRAyzRHZW9VYeh+9OLSyjR8wjhHXasrs/+TDk5wTv2Nc+U00XqNMltRtVuTjYAjrjJ+lMjp7S2BsLkZsywPKMY6g5BzUnK2I1PsN6xF4igqUkOBvgZpJsH+DRb2lvbcKwxKuFwBjoOw7Ci5VHQ5wSOlObae0myVcHHUdqZ6gyqxKHApS6CPZVdf2tgmAX4wUz3BqeTWLN7SytpriM3V4yokORxkk9cVGajCJijuNkOcd6y8JeFBe+KP8xXDqYbaMRwp6mTB3PsAf39quxR5aFkfFWdKUYUAdAKWiit5mEpDWVJQMSkpaSogFFFFMAooopDCiilFAgpaKxdsDNAClgKbT3Kp1am19eLGpJO2KqOra/wkqpJPtT6L8eFyLBfavHED5gMe9Vy98QxzqYeLKMd6rl3ezXLEu2FPpTbtsNqi3aN0cCiqZdLGYFOvpTO/wBTsbe/ENzMkLMF5ZY4Db4ODUZp9zM68AYA9BTLV54CrW2toIYZRhGf8p+o6GsHGnRnmuLovd5frb20XBGZHzgJ/uPpWVlJLArzXfL5rnfg6KO2TVY0DQpRHG1ol5cqU8kjsSAv/Ek4FW2PTVtrVfx9xylxvFD5pGB7t/SpqJTNpfZCard23Er8xo5HbCshwSe3vWCm55OLk8UgIAIGOLPtUjb6dZG4F4losbRgiMElmGepJPrWmXhE2WOGJzvVckSi/wAjLUSEiPF3qc8C3S/h7m1bZg/MX3B2P8KrWrSq0m74RQWZj0rRZSzBoJrRikqkOh/kR6g9CPepY58HYZI8o6OrEEDJoqMsrsXFvHPG3kkH5T+k9Cv3p0spP6fscVu5J7MHtrTHPzpK0h39x896XjbG4zTtDWVGykrDnd1Io5i+/wBqLJqcWZ0Vr5ye9HOT3+1NMfJGdLRRQSAUtArCZ1ijZ3OFUZJoELI4XY1G396EBGcVR5fEmpf5pVpZ+G1byckZwoOSCR39M0mtapcbpn8xxt+n2PvTOhHwpRpyG/iPxBIUb8Njlh+Bnz64zj7VD2tibotLc3Q4WXZUfBX+tNI7a9a3aMxtcW3GWDKnEQ2+fr/Ws1hmgiHFDchQdiynyk++Kq7dndwYoKFKjO8hbT7oRmUzRcvYgY3Pf5VueJ4m4ZBhsZxWkwySsrNMoGQSDv8AcU6uJWncFzkABRTjRT5CgnUewtZFjlHF+U/mqaeVby2a3l4ZVZc4YZyPcVAqM5x6dfasZ7lLMJKk5LkgBEOQc1Tkhe0cnOorZOabzbCMRwzXCRLsI1kYAfIZxUzp9xecaxQrhSfMzbk/0qKsp8lVlUK4OCCd81Ow3UcbKD8ulUpy6M7arodSgRw8LNk+pz1qA1S8jtWdpJEVVG7dqe6nqVrbQmRnxtsufN07VVLW2k1ec3V0CturZWIn8x70PS2QVtmdlby6xOJ5wUtQeIR9OPtn29qnNERZL+cP1XYDsakbSzSKz4lGCRTDSDytQf3IrPJsu+ixaU/4PU2s5WHLuwZIQfSRR5gPmuD9DU0RhsjoKp3jnUY9N0Fb5MfjIZ42tCDjMgP8OHIPsatmmXUOraZa6jaPmG5iWRcHuP7FbsLbjs5edLlochcjIpCDis1Vx1FKFPGGI6VaUmHLpOXW7FCrnrQBo5VHLNOuEUnDQBqoooqZuFFMNcONLusgkcs7D12p+KZ6tC9xp9xHGMuyEADvimuyUPkjmOqTRya1GVbcMApQZwa23CLcQmzS/t/zcY4sgs2/rUNaWtxc6oUWFuZbPxOoIy4zv9v504u4jFO44cAk7HtUZyb6PQeRK0owf0Z3uotZXypbcOnyyKEeHqsjD9WPQ4p3bPqGqk26nmcsGRhgLsOpNbdOstL17kW2pQxyXcfljkkJB4e21OvDMMltrTypCyQozQSKxzgdDv8Aaszyy4uL+jmvyZRUk9UV1QztgLlmwABuWqz6J4Our1le/ZraLqUx5z/SrLoOjWunxmWCPinY7yOMkew7CpyEOPTFXRdpMx5v5CTVQILV/B2mXuli1jX8O6bpKu5z796o954ZudL1BLi6QPaxIOSy9C59T2xXV5zxJwjrWiW3iuIGinUOjDBzQ0YlllezkN283JZkYqwJ3x6VFzanfqCPxDMv+0+tdPl8F2jOxW7mVT+k4P0qo3ugWvh3xEttc8dzYTgNbySblG9VbAxjIOKz5ItbNuDNF6Yy0mwk1UCa4EjQp3J83sDVosI4UxGRgLtj1qStxG8YRcKMeXG1aprLfiB4X9vWszbNDaHjj/QITG4qHs7fF8OvWn1vfRKkiTuFKDPmONqoXinxcjRzWekOGEnlkuF7eoX596lHG5vRXPIoR2MPiFrq6tqywWsgazs8oh9Hf9Tfy+lXL4J6wH0+80WRhm2bnwD14HPmH0bf/tXJDsOH6YxU54J1X/BPFWnXxJ5XM5MwHrG/lP2OD9K6SglGkcuUuTs9GZoNIeu29KOlRIiYrIUUdKAMqSgHNLQA3oooqZuFFBFApaYEZc6fAJJJkiVZZAAxA6gdP41S/EWnsHzGhZj0CjJrorrkGmduts07MVBcbZ7UMtXk+pWyk6D4VuWljuL1nt1VgyxqfOcd+38auMcSNxwuF4tznHXPr86ePEF3UHB/aozUXayure5yeS7CKT2J/Kf5fasmfS5GPNnnllbH1kzcgI/5kJBpxnatKALMxX8sgDD5/wB5rb1BqWF3AzoUVsVaZztcx4a3WOQA7xucZ+Tb4+1bbG8F0r4gnhkUjjSVcEfI7gj3Bq0Zs/VVB+MkFymhWt9auyCGblzY6cLdM/8AYCuh8Izk1HeJNMTW9CvtNkOBcRFVON1YbqfoQD9KBptbRxPTvHl7bRCK7tUl4ejo/CT70+l+JN7wcNpYQI2Nnlct+wx/GqO8bxO0cgw6kqR2IOKRWPTIpemHdFnvnXZI6prF/qzl76cuD+kAKv2FMT13pPN86xY7VbGKj0Vyk5diruSTQF4wVJxmlXZKEHX3psiehvAGrnXPCWn3UrhrhE5M+2/Gh4SfrgH61YRXJPgnqojv9R0aRtpkF1FnuuFcfYqfvXW8YNVvsYuKDS1i5xSAVTS1gDvWWaYGmiiipG4UUopKWpMAbpVOvb59PnWQN5GP5TVyFUbxTqdmoa0e3EgDYPEud/SoSF91RZ9P1i3vbdJEcEGjUbixmiks5ZONpU4eBNyM+vtVH0O0U27TW6yxLK3FyuIkLt0FS8EFxFIJI4F4F3yzdayZM3+aGvGV22S13LcQaJFK8n+vAyMGA2dQRn9ialkbiUEDGd6ioIp7yF4p8LE8ZGAOm/8A8qSTMRCsQR0GKMOn+jPkxcXo3LjJyM1tz9K0nIHENzWwMGRXU7MMitJSZGkH796BS0AefPiNpg0rxhqEQGIpmFxFjs4yf/biqtcP7dK658a9MDWdhqqJ5o3MEh9m3X9wR9a5LVkXoQA7YrFt2Apc4rFfMxPapAbO9C0DpQKAJLw1qh0TxFp2pKdoZgJPeNvK303z9K9KfLcehryy6B0KncEYIr0F8OdV/wAW8GaZM5LTQxC2m4jk8cflJPzwDVcuxllrCU+X61sFabg4Ue5qIDHWNTTT1iQwyyvK3SIZKrtk49qcG6jUkGRcjbrVb1e9t7rUbyWRJJIbMR20Eabme5J4+ED1wCnyyT6U2i1bQreJILsXE1xGoSWSOAlXYbEg9iaYH//Z"
+        alt="Chayanne"
+      />
+      <p>
+        Bienvenidos a la fanpage oficial de Chayanne. Aquí encontrarás todas las
+        noticias, fotos, videos y mucho más sobre este gran artista.
+      </p>
+      <p>
+        Elmer Figuero Arce (San Lorenzo, Puerto Rico; 28 de junio de 1968),más conocido por su nombre artistico Chayanne, es un cantante,
+        compositor, bailarín y actor puertorriqueño.
+      </p>
+      
+      <p>
+        Sus discos mas famos  son provocame, atado a tu piel, de piel a piel, caprichosa, toreto, fiesta en america, un siglo sin ti, madre tierra, humanos en marte y volver a nacer. 
+      </p>
+      <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" class="button"
+        >Visitar sitio oficial</a
+      >
     </div>
   </body>
 </html>
